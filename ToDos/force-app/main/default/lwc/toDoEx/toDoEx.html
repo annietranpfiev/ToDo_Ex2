@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="To Do Record Name" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+        <a href="https://assigment-dev-ed.develop.lightning.force.com/lightning/page/home">https://assigment-dev-ed.develop.lightning.force.com/lightning/page/home</a>
+        <br /><br />
+        <p class="slds-var-m-bottom_small">
+            <lightning-button
+                label="New"
+                onclick={createToDo}
+            ></lightning-button>
+            <lightning-button
+                label="Edit"
+                onclick={interactionEdit}
+            ></lightning-button>
+            <lightning-button
+            label="Delete"
+            onclick={interactionDelete}
+        ></lightning-button>
+        </p>
+      </div>
+    </lightning-card>
+  </template>
